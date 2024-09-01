@@ -54,7 +54,7 @@ pip install -r requirements.txt
 다음 명령어를 사용하여 모델 학습을 진행합니다.   
 **주의:**  실행 전 device 설정이 필요합니다. 
 ```bash
-CUDA_VISIBLE_DEVICES=6 python -m run.train \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5 python -m run.train \
     --model_id maywell/EXAONE-3.0-7.8B-Instruct-Llamafied \
     --batch_size 1 \
     --gradient_accumulation_steps 1 \
