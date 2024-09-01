@@ -36,7 +36,7 @@ cd Korean_Summarization_B/말평2024_일상대화요약_나유형
 
 2. 필요 라이브러리를 설치합니다. 
 ```bash
-pip install –r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 4. 실행 – 전처리
