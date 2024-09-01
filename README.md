@@ -4,8 +4,11 @@
 
 해당 코드는 리더보드에서 **3등**을 기록하였으며, 평균점수 61.347, Rouge-1 56.512, Bert score 79.224, BLEURT 48.306 점을 달성하였습니다.   
 
-베이스라인: https://github.com/teddysum/Korean_DCS_2024
-
+베이스라인: https://github.com/teddysum/Korean_DCS_2024    
+       
+**본 모델은 학습 시 A6000 * 6대 이상의 자원이 필요합니다.**    
+**추론은 RTX4090 TI * 1대로 가능합니다.**
+         
 ## 사용 방법
 
 ### 1. 기본 데이터 삽입
